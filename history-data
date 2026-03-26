@@ -1,0 +1,26 @@
+    1  exit
+    2  halt
+    3  ls
+    4  mkdir mobile-app && cd mobile-app && touch file{10..15}
+    5  ls
+    6  top
+    7  htop
+    8  free -h
+    9  sh -tuln
+   10  df -h
+   11  du -sh
+   12  ps -ef
+   13  ps -ef >> file1
+   14  cat file1
+   15  ss -tuln
+   16  ss -tuln >> file3
+   17  netstat -tuln >> file4
+   18  ls
+   19  mv file4 netstat-data
+   20  ls
+   21  mv file3 open-port-check-command
+   22  ls
+   23  cat file1
+   24  mv file1 running-process-command
+   25  ls
+   26  history >> file10
