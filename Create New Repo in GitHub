@@ -1,0 +1,20 @@
+1.  git --version
+2.  sudo apt install gh -y
+3.  gh --version
+4.  gh auth login
+5.  history gh auth login >> file12
+6.  gh auth login
+7.  git config --global init.defaultBranch
+8.  ls
+9.  history >> file11 && mv file11 Git-Command-Create-Repo
+10. gh repo create mobile-agri-smart-advisor --public --source=. --remote=origin --push
+11. git remote -v
+12. git remote add origin https://github.com/Mwagh5022Git/mobile-agri-smart-advisor.git
+13. git status
+14. git add.
+15. git config --global user.name "Manish Wagh"
+16. git config --global user.email "mwagh5022@gmail.com"
+17. git commit -m " Inital Commit"
+18. git branch -M main
+19. git remote -v
+20. git push -u origin main
