@@ -1,0 +1,48 @@
+    1  exit
+    2  halt
+    3  ls
+    4  mkdir mobile-app && cd mobile-app && touch file{10..15}
+    5  ls
+    6  top
+    7  htop
+    8  free -h
+    9  sh -tuln
+   10  df -h
+   11  du -sh
+   12  ps -ef
+   13  ps -ef >> file1
+   14  cat file1
+   15  ss -tuln
+   16  ss -tuln >> file3
+   17  netstat -tuln >> file4
+   18  ls
+   19  mv file4 netstat-data
+   20  ls
+   21  mv file3 open-port-check-command
+   22  ls
+   23  cat file1
+   24  mv file1 running-process-command
+   25  ls
+   26  history >> file10
+   27  cat file10
+   28  mv file10 history-data
+   29  ls
+   30  git --version
+   31  git config --global user.name "Manish Wagh"
+   32  git config --global user.email "mwagh5022@gmail.com"
+   33  git apt install gh -y
+   34  apt update
+   35  sudo apt install gh -y
+   36  gh --version
+   37  gh auth login
+   38  history gh auth login >> file12
+   39  gh auth login
+   40  git init
+   41  git config --global init.defaultBranch
+   42  git init
+   43  git add .
+   44  git commit -m "Inital Commit"
+   45  gh repo create mobile-agri-smart-advisor --public --source=. --remote=origin --push
+   46  ls
+   47  cat file11
+   48  history >> file11 && mv file11 Git-Command-Create-Repo
