@@ -3,7 +3,7 @@
 Check out my project on [GitHub](https://github.com)
 
 ## Features
-- [Easy to use](google.com)
+- [Easy to use](https://google.com)
 - Fast performance
 - Compatible with multiple platforms
 
